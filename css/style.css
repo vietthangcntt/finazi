@@ -44,6 +44,9 @@
 	font-weight:bold;
 	font-size:14px;
 }
+.comment-text {
+	padding: 1px;
+}
 .sibar-list h3 a {
 	font-weight:bold;
 	font-size:24px;
@@ -160,7 +163,7 @@
 .sibar-tags ul {
 	list-style:none;
 	padding-left:0;
-	padding-top:40px;
+	padding-top:50px;
 	position:relative;
 }
 .sibar-list ul li a {
@@ -240,6 +243,8 @@
 .comment-picture a img {
 	float:left;
 	margin-right:20px;
+    border: 4px solid #f2f2f2;
+    border-radius: 50%;
 }
 .comment-right h4 a{
 	float:left;
@@ -283,9 +288,6 @@
 	padding-top:50px;
 	padding-bottom:70px;
 }
-.comment-text {
-	padding:10px;
-}
 .sibar-category {
 	padding-top:50px;
 }
@@ -301,7 +303,7 @@
     background-color: transparent;
     border: 1px solid #dddddd;
     padding: 8px 26px;
-    margin-top: 3px;
+    margin-top: 9px;
     border-radius: 6px;
 }
 .content-coment {
@@ -354,15 +356,19 @@
 	list-style:none;
 }
 .list-icon ul li {
-	float:left;
-	border:1px solid #6c6c6c;
-	background:transparent;
-	padding: 5px 9px;
-	margin-left:5px;
+	float: left;
+    border: 1px solid #e8e8e8;
+    background: transparent;
+    border-radius: 3px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
 }
 .list-icon ul li a i {
 	font-size:16px;
 	color:#6c6c6c;
+	line-height: 30px;
 }
 .list-post:before {
 	content: "";
@@ -371,7 +377,7 @@
 	height:5px;
 	position:absolute;
 	left: 0;
-    top: 15px;
+    top: 5px;
 }
 .recent:before {
 	content: "";
@@ -415,11 +421,11 @@
 }
 .list-post {
 	position:relative;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 .archive {
 	padding-left:0;
-	padding-top:40px;
+	padding-top:50px;
 	position:relative;
 }
 .archive li {
@@ -487,7 +493,7 @@
 }
 .navbar-theme {
 	background-color:#152639;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .navbar-theme a {
 	color: #ffff;
@@ -502,10 +508,13 @@
 	font-size:13px;
 	font-weight:400;
 	text-decoration: none;
+	padding: 10px;
 }
 .list-header li {
 	float:left;
-	margin-right: 35px;
+	margin-right: 20px;
+	transform: skew(-20deg);
+	list-style: none;
 }
 .list-header {
 	float:right;
@@ -516,7 +525,8 @@
 }
 .menu-list {
 	list-style:none;
-	margin-top: 20px;
+	line-height: 55px;
+    padding: 0px 0 0 240px;
 }
 .menu-list li {
 	float:left;
@@ -630,7 +640,7 @@
 	border-bottom: 1px solid #e8e8e8;
 }
 .time-top {
-	border: 1px solid red;
+	border: 1px solid #e8e8e8;
     border-radius: 50%;
     height: 90px;
     width: 90px;
@@ -751,7 +761,7 @@
 }
 .footer-algin {
 		background-image: url(../images/footer2.png);
-		padding-top: 39px;
+	    padding: 30px 0 10px 0;
 }
 .algin-top {
 	float:right;
@@ -812,7 +822,7 @@
 	background:#14f1e4;
 	color:black;
 }
-.list-header li:hover {
+.list-header li a:hover {
 	background:#14f1e4;
 	color:black;
 }
@@ -1016,8 +1026,6 @@
 		margin-left:10px;
 	}
 }
-
-
 
 
 
