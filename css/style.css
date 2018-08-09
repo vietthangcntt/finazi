@@ -544,6 +544,7 @@
 .menu-shop {
 	float:right;
 	margin-top: 20px;
+    border-left: 1px solid #f2f3f1;
 }
 .list-menu {
 	float:left;
@@ -615,6 +616,7 @@
 .footer-top {
 	background-image: url(../images/footer.png);
 	padding-top:65px;
+	padding-bottom: 50px;
 }
 .list-pro {
 	margin-top:30px;
@@ -799,6 +801,9 @@
 }
 .footer-1 hr {
 	border-top: 1px solid #797979;
+}
+.time-content h3 {
+	margin-bottom: 0px;
 }
 .footer-2 hr {
 	border-top: 1px solid #797979;
