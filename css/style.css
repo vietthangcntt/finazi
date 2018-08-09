@@ -235,6 +235,7 @@
 }
 .list-right {
 	text-align:right;
+    margin-top: -15px;
 }
 .picture-2 a {
 	float: inherit;
@@ -612,6 +613,17 @@
 	font-weight:bold;
 	color:black;
 	float:right;
+}
+.list-left h3 {
+	width: 148px;
+}
+.list-left {
+    padding-right: 30px;
+    margin-top: -15px;
+}
+.list-right h3 {
+	width: 134px;
+	margin-left: 50px;
 }
 .footer-top {
 	background-image: url(../images/footer.png);
